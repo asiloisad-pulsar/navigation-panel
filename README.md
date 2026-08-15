@@ -2,7 +2,7 @@
 
 Document outline and navigation panel. Navigate through custom section markers in text editors with tree view, filtering, and folding support.
 
-![docface](https://github.com/asiloisad/pulsar-navigation-panel/blob/master/assets/docface.png?raw=true)
+![docface](https://github.com/asiloisad-pulsar/navigation-panel/blob/master/assets/docface.png?raw=true)
 
 ## Features
 
@@ -11,8 +11,8 @@ Document outline and navigation panel. Navigate through custom section markers i
 - **Category markers**: Tag headers as info, success, warning, or error.
 - **Section folding**: Fold/unfold sections and view as table of contents.
 - **Multiple scopes**: LaTeX, Python, Markdown, JavaScript, and more. Individual built-in scanners can be disabled in settings to let a community adapter take over.
-- **Adapter support**: External packages can provide navigation headers for any pane item type via the `navigation-adapter` service. Used by [pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer), [image-editor](https://github.com/asiloisad/pulsar-image-editor), and [jupyter-next](https://github.com/asiloisad/pulsar-jupyter-next).
-- **Scrollmap**: Shows navigation markers in the scrollbar via [scrollmap](https://github.com/asiloisad/pulsar-scrollmap).
+- **Adapter support**: External packages can provide navigation headers for any pane item type via the `navigation-adapter` service. Used by [pdf-viewer](https://github.com/asiloisad-pulsar/pdf-viewer), [image-editor](https://github.com/asiloisad-pulsar/image-editor), and [jupyter-next](https://github.com/asiloisad-pulsar/jupyter-next).
+- **Scrollmap**: Shows navigation markers in the scrollbar via [scrollmap](https://github.com/asiloisad-pulsar/scrollmap).
 
 ## Installation
 
@@ -228,7 +228,7 @@ Global regular expression is `(?:^(#+) +(.+?) *$|^ *(.+?) *: *$)`. The level is 
 
 ### Python
 
-Global regular expression is `^([^#\n]*)#(?:%%)?(\$+[spv1]?|\?)([\*\+\-\!\_]?)#(.*)` where count of `$` mean the level on list. Headers are compatible with [hydrogen-next](https://github.com/asiloisad/pulsar-hydrogen-next) cells.
+Global regular expression is `^([^#\n]*)#(?:%%)?(\$+[spv1]?|\?)([\*\+\-\!\_]?)#(.*)` where count of `$` mean the level on list. Headers are compatible with [hydrogen-next](https://github.com/asiloisad-pulsar/hydrogen-next) cells.
 
 Additional letter can be used to provide additional parse effect:
 
@@ -365,15 +365,15 @@ Additional letter can be used to provide additional visual effect:
 
 ### pdf-viewer
 
-[pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer) provides its document outline via the `navigation-adapter` service. You can search the entire outline tree instead of the built-in PDFjs outline. A section number filter and scroll-position tracking are supported. Configure the filter in pdf-viewer settings (`snoFilter`).
+[pdf-viewer](https://github.com/asiloisad-pulsar/pdf-viewer) provides its document outline via the `navigation-adapter` service. You can search the entire outline tree instead of the built-in PDFjs outline. A section number filter and scroll-position tracking are supported. Configure the filter in pdf-viewer settings (`snoFilter`).
 
 ### image-editor
 
-[image-editor](https://github.com/asiloisad/pulsar-image-editor) provides its folder file list via the `navigation-adapter` service.
+[image-editor](https://github.com/asiloisad-pulsar/image-editor) provides its folder file list via the `navigation-adapter` service.
 
 ### jupyter-next
 
-[jupyter-next](https://github.com/asiloisad/pulsar-jupyter-next) provides markdown cell headings via the `navigation-adapter` service. Clicking a heading activates the corresponding cell and scrolls to it.
+[jupyter-next](https://github.com/asiloisad-pulsar/jupyter-next) provides markdown cell headings via the `navigation-adapter` service. Clicking a heading activates the corresponding cell and scrolls to it.
 
 ## Consumed Service `navigation-adapter`
 
