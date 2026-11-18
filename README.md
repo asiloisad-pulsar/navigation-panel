@@ -2,6 +2,9 @@
 
 Document outline and navigation panel. Navigate through custom section markers in text editors with tree view, filtering, and folding support.
 
+> [!NOTE]
+> This package is in maintenance mode. If you use [Lumine](https://github.com/lumine-code/lumine), you may be interested in [navigation-panel](https://github.com/lumine-code/navigation-panel).
+
 ![docface](https://github.com/asiloisad-pulsar/navigation-panel/blob/master/assets/docface.png?raw=true)
 
 ## Features
